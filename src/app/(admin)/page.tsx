@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ArrowRight, BarChart3, CheckCircle, Globe, Layers, type LucideIcon, Shield, Users } from "lucide-react"
 import Button from "@/components/ui/button/Button"
-
+import Image from "next/image"
 // import { Button } from "@/components/ui/button"
 
 export default function HomePage() {
@@ -73,7 +73,7 @@ export default function HomePage() {
                                 </div>
                             </div>
                             <div className="relative mx-auto aspect-video overflow-hidden rounded-xl border bg-background md:aspect-square lg:aspect-video p-2">
-                                <img
+                                <Image
                                     src="/images/cards/card-03.png"
                                     alt="Dashboard Preview"
                                     className="w-full h-full object-cover rounded-lg"
@@ -232,7 +232,7 @@ export default function HomePage() {
                             <div className="space-y-3">
                                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Simple, Transparent Pricing</h2>
                                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed">
-                                    Choose the plan that's right for your team. All plans include access to our core features.
+                                    {"Choose the plan that's right for your team. All plans include access to our core features."}
                                 </p>
                             </div>
                         </div>
@@ -488,11 +488,11 @@ interface TestimonialCardProps {
     role: string
 }
 
-function TestimonialCard({ quote, author, role }: TestimonialCardProps) {
+function TestimonialCard({ author, role }: TestimonialCardProps) {
     return (
         <div className="relative flex flex-col space-y-4 rounded-lg border p-6 shadow-sm">
             <div className="flex-1">
-                <p className="text-muted-foreground">"{quote}"</p>
+                <p className="text-muted-foreground">{"quote"}</p>
             </div>
             <div className="flex items-center gap-4">
                 <div className="h-10 w-10 rounded-full bg-muted"></div>

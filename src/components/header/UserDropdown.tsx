@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import React, { useState } from "react";
 import { Dropdown } from "../ui/dropdown/Dropdown";
 import { DropdownItem } from "../ui/dropdown/DropdownItem";
@@ -39,7 +38,7 @@ export default function UserDropdown() {
           <Image
             width={44}
             height={44}
-            src={user?.image}
+            src={user?.image || "/default-avatar.png"}
             alt="User"
           />
         </span>
