@@ -11,11 +11,11 @@ export default function SaasMetrics() {
       <div className="grid rounded-2xl border border-gray-200 bg-white sm:grid-cols-2 xl:grid-cols-4 dark:border-gray-800 dark:bg-gray-900">
         <div className="border-b border-gray-200 px-6 py-5 sm:border-r xl:border-b-0 dark:border-gray-800">
           <span className="text-sm text-gray-500 dark:text-gray-400">
-            Total Revenue
+            Total Projects
           </span>
           <div className="mt-2 flex items-end gap-3">
             <h4 className="text-title-xs sm:text-title-sm font-bold text-gray-800 dark:text-white/90">
-              $200,45.87
+            85
             </h4>
             <div>
               <span className="bg-success-50 text-success-600 dark:bg-success-500/15 dark:text-success-500 flex items-center gap-1 rounded-full py-0.5 pr-2.5 pl-2 text-sm font-medium">
@@ -26,11 +26,11 @@ export default function SaasMetrics() {
         </div>
         <div className="border-b border-gray-200 px-6 py-5 xl:border-r xl:border-b-0 dark:border-gray-800">
           <span className="text-sm text-gray-500 dark:text-gray-400">
-            Active Users
+            Active Members
           </span>
           <div className="mt-2 flex items-end gap-3">
             <h4 className="text-title-xs sm:text-title-sm font-bold text-gray-800 dark:text-white/90">
-              9,528
+            120
             </h4>
             <div>
               <span className="bg-success-50 text-success-600 dark:bg-success-500/15 dark:text-success-500 flex items-center gap-1 rounded-full py-0.5 pr-2.5 pl-2 text-sm font-medium">
@@ -42,11 +42,11 @@ export default function SaasMetrics() {
         <div className="border-b border-gray-200 px-6 py-5 sm:border-r sm:border-b-0 dark:border-gray-800">
           <div>
             <span className="text-sm text-gray-500 dark:text-gray-400">
-              Customer Lifetime Value
+            Average Project Duration	
             </span>
             <div className="mt-2 flex items-end gap-3">
               <h4 className="text-title-xs sm:text-title-sm font-bold text-gray-800 dark:text-white/90">
-                $849.54
+                4.2 months
               </h4>
               <div>
                 <span className="bg-error-50 text-error-600 dark:bg-error-500/15 dark:text-error-500 flex items-center gap-1 rounded-full py-0.5 pr-2.5 pl-2 text-sm font-medium">
@@ -58,11 +58,11 @@ export default function SaasMetrics() {
         </div>
         <div className="px-6 py-5">
           <span className="text-sm text-gray-500 dark:text-gray-400">
-            Customer Acquisition Cost
+            Total Clients	
           </span>
           <div className="mt-2 flex items-end gap-3">
             <h4 className="text-title-xs sm:text-title-sm font-bold text-gray-800 dark:text-white/90">
-              9,528
+              42
             </h4>
             <div>
               <span className="bg-success-50 text-success-600 dark:bg-success-500/15 dark:text-success-500 flex items-center gap-1 rounded-full py-0.5 pr-2.5 pl-2 text-sm font-medium">

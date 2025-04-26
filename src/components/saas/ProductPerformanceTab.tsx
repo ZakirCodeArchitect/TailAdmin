@@ -24,7 +24,7 @@ export default function ProductPerformanceTab() {
       <div className="mb-6 flex justify-between">
         <div>
           <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-            Product Performance
+            Teams Performance
           </h3>
         </div>
         <div className="relative inline-block">
@@ -61,7 +61,7 @@ export default function ProductPerformanceTab() {
                 : "text-gray-500 dark:text-gray-400"
             }`}
           >
-            Daily Sales
+           Completions
           </button>
           <button
             onClick={() => setSelected("online")}
@@ -71,7 +71,7 @@ export default function ProductPerformanceTab() {
                 : "text-gray-500 dark:text-gray-400"
             }`}
           >
-            Online Sales
+            Issued
           </button>
           <button
             onClick={() => setSelected("new")}
@@ -81,7 +81,7 @@ export default function ProductPerformanceTab() {
                 : "text-gray-500 dark:text-gray-400"
             }`}
           >
-            New Users
+            Delayed
           </button>
         </div>
 

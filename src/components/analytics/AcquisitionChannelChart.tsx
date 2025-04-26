@@ -14,19 +14,19 @@ const ReactApexChart = dynamic(() => import("react-apexcharts"), {
 export default function AcquisitionChannelChart() {
   const series = [
     {
-      name: "Direct",
+      name: "Project Dashboard",
       data: [44, 55, 41, 67, 22, 43, 55, 41],
     },
     {
-      name: "Referral",
+      name: "Client Communication	",
       data: [13, 23, 20, 8, 13, 27, 13, 23],
     },
     {
-      name: "Organic Search",
+      name: "Team Meetings",
       data: [11, 17, 15, 15, 21, 14, 18, 20],
     },
     {
-      name: "Social",
+      name: "Other Internal Tools",
       data: [21, 7, 25, 13, 22, 8, 18, 20],
     },
   ];
@@ -121,7 +121,7 @@ export default function AcquisitionChannelChart() {
     <div className="rounded-2xl border border-gray-200 bg-white px-5 pt-5 dark:border-gray-800 dark:bg-white/[0.03] sm:px-6 sm:pt-6">
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-          Acquisition Channels
+          Developer Activity Sources
         </h3>
         <div className="relative h-fit">
           <button onClick={toggleDropdown} className="dropdown-toggle">

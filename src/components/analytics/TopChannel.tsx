@@ -18,7 +18,7 @@ export default function TopChannel() {
     <div className="rounded-2xl border border-gray-200 bg-white p-4 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
       <div className="flex items-start justify-between">
         <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-          Top Channels
+         Top Performing Team Leads
         </h3>
         <div className="relative h-fit">
           <button onClick={toggleDropdown} className="dropdown-toggle">
@@ -47,46 +47,46 @@ export default function TopChannel() {
 
       <div className="my-6">
         <div className="flex items-center justify-between pb-4 border-b border-gray-100 dark:border-gray-800">
-          <span className="text-gray-400 text-theme-xs"> Source </span>
+          <span className="text-gray-400 text-theme-xs"> Name </span>
           <span className="text-right text-gray-400 text-theme-xs">
             {" "}
-            Visitors{" "}
+            Projects Delivered{" "}
           </span>
         </div>
 
         <div className="flex items-center justify-between py-3 border-b border-gray-100 dark:border-gray-800">
           <span className="text-gray-500 text-theme-sm dark:text-gray-400">
-            Google
+          Ali Raza
           </span>
           <span className="text-right text-gray-500 text-theme-sm dark:text-gray-400">
-            4.7K
+            87
           </span>
         </div>
 
         <div className="flex items-center justify-between py-3 border-b border-gray-100 dark:border-gray-800">
           <span className="text-gray-500 text-theme-sm dark:text-gray-400">
-            Facebook
+            Bilal Ahmed
           </span>
           <span className="text-right text-gray-500 text-theme-sm dark:text-gray-400">
-            3.4K
+            67
           </span>
         </div>
 
         <div className="flex items-center justify-between py-3 border-b border-gray-100 dark:border-gray-800">
           <span className="text-gray-500 text-theme-sm dark:text-gray-400">
-            Threads
+            Awais Khan
           </span>
           <span className="text-right text-gray-500 text-theme-sm dark:text-gray-400">
-            2.9K
+            65
           </span>
         </div>
 
         <div className="flex items-center justify-between py-3 border-b border-gray-100 dark:border-gray-800">
           <span className="text-gray-500 text-theme-sm dark:text-gray-400">
-            Google
+            Zain Ali
           </span>
           <span className="text-right text-gray-500 text-theme-sm dark:text-gray-400">
-            1.5K
+            58
           </span>
         </div>
       </div>

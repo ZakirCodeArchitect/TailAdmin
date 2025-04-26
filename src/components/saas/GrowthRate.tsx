@@ -78,10 +78,10 @@ export default function GrowthChart() {
       <div className="mb-6 flex justify-between">
         <div>
           <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-            User Growth
+            Team Growth
           </h3>
           <p className="text-theme-sm mt-1 text-gray-500 dark:text-gray-400">
-            New signups website + mobile
+            New Developers onboarded
           </p>
         </div>
         <div className="relative inline-block">
@@ -111,11 +111,11 @@ export default function GrowthChart() {
       <div className="flex justify-between">
         <div>
           <h3 className="text-title-xs font-semibold text-gray-800 dark:text-white/90">
-            3,768
+            8
           </h3>
           <p className="text-theme-xs mt-1 text-gray-500 dark:text-gray-400">
             <span className="text-success-600 mr-1 inline-block">+3.85%</span>
-            than last Week
+            than last month
           </p>
         </div>
         <div className="max-w-full">

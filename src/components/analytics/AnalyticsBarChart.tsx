@@ -108,9 +108,9 @@ export default function AnalyticsBarChart() {
     {
       name: "Sales",
       data: [
-        168, 385, 201, 298, 187, 195, 291, 110, 215, 390, 280, 112, 123, 212,
-        270, 190, 310, 115, 90, 380, 112, 223, 292, 170, 290, 110, 115, 290,
-        380, 312,
+        2, 1, 0, 4, 3, 1, 9, 2, 0, 1, 0, 5, 2, 3,
+        1, 7, 3, 5, 0, 4, 2, 9, 6, 3, 2, 1, 0, 0,
+        3, 8,
       ],
     },
   ];
@@ -122,7 +122,7 @@ export default function AnalyticsBarChart() {
             Analytics
           </h3>
           <span className="block text-gray-500 text-theme-sm dark:text-gray-400">
-            Visitor analytics of last 30 days
+            Projects taken of last 30 days
           </span>
         </div>
         <ChartTab />

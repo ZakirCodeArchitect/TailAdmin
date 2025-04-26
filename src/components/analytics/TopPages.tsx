@@ -18,7 +18,7 @@ export default function TopPages() {
     <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
       <div className="flex items-start justify-between">
         <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-          Top Pages
+         Top Performing Developers
         </h3>
         <div className="relative h-fit">
           <button onClick={toggleDropdown} className="dropdown-toggle">
@@ -47,46 +47,46 @@ export default function TopPages() {
 
       <div className="my-6">
         <div className="flex items-center justify-between pb-4 border-b border-gray-100 dark:border-gray-800">
-          <span className="text-gray-400 text-theme-xs"> Source </span>
+          <span className="text-gray-400 text-theme-xs"> Name </span>
           <span className="text-right text-gray-400 text-theme-xs">
             {" "}
-            Pageview{" "}
+            Task Completed{" "}
           </span>
         </div>
 
         <div className="flex items-center justify-between py-3 border-b border-gray-100 dark:border-gray-800">
           <span className="text-gray-500 text-theme-sm dark:text-gray-400">
-            tailadmin.com
+            Hassan Ali
           </span>
           <span className="text-right text-gray-500 text-theme-sm dark:text-gray-400">
-            4.7K
+            149
           </span>
         </div>
 
         <div className="flex items-center justify-between py-3 border-b border-gray-100 dark:border-gray-800">
           <span className="text-gray-500 text-theme-sm dark:text-gray-400">
-            preview.tailadmin.com
+            Ahmed Khan	
           </span>
           <span className="text-right text-gray-500 text-theme-sm dark:text-gray-400">
-            3.4K
+            134
           </span>
         </div>
 
         <div className="flex items-center justify-between py-3 border-b border-gray-100 dark:border-gray-800">
           <span className="text-gray-500 text-theme-sm dark:text-gray-400">
-            docs.tailadmin.com
+            Shakeel ahmed
           </span>
           <span className="text-right text-gray-500 text-theme-sm dark:text-gray-400">
-            2.9K
+            121
           </span>
         </div>
 
         <div className="flex items-center justify-between py-3 border-b border-gray-100 dark:border-gray-800">
           <span className="text-gray-500 text-theme-sm dark:text-gray-400">
-            tailadmin.com/componetns
+            John Doe
           </span>
           <span className="text-right text-gray-500 text-theme-sm dark:text-gray-400">
-            1.5K
+            104
           </span>
         </div>
       </div>

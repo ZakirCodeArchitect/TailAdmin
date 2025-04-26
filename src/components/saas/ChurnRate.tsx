@@ -77,10 +77,10 @@ export default function ChurnRateChart() {
       <div className="mb-6 flex justify-between">
         <div>
           <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-            Churn Rate
+          Drop-off Rate
           </h3>
           <p className="text-theme-sm mt-1 text-gray-500 dark:text-gray-400">
-            Downgrade to Free plan
+          Percentage of projects abandoned or put on hold.
           </p>
         </div>
         <div className="relative h-fit">
@@ -110,11 +110,11 @@ export default function ChurnRateChart() {
       <div className="flex justify-between">
         <div>
           <h3 className="text-title-xs font-semibold text-gray-800 dark:text-white/90">
-            4.26%
+            0.34%
           </h3>
           <p className="text-theme-xs mt-1 text-gray-500 dark:text-gray-400">
             <span className="text-error-500 mr-1 inline-block">0.31%</span>
-            than last Week
+            than last month
           </p>
         </div>
         <div className="max-w-full">
