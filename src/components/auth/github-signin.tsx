@@ -18,19 +18,3 @@ export function GithubSignIn() {
   );
 }
 
-// "use client";
-
-// import { signIn } from "next-auth/react";
-// import { Github } from "@/components/ui/github";
-
-// export function GithubSignIn() {
-//   return (
-//     <button
-//       onClick={() => signIn("github", { callbackUrl: "/" })}
-//       className="w-full inline-flex items-center justify-center gap-3 py-3 text-sm font-normal text-gray-700 transition-colors bg-gray-100 rounded-lg hover:bg-gray-200 hover:text-gray-800 dark:bg-white/5 dark:text-white/90 dark:hover:bg-white/10"
-//     >
-//       <Github />
-//       Continue with GitHub
-//     </button>
-//   );
-// }

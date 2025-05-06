@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Dropdown } from "../ui/dropdown/Dropdown";
 import { DropdownItem } from "../ui/dropdown/DropdownItem";
 import { signoutAction } from "@/lib/actions";
+
 import { useSession } from "next-auth/react";
 
 export default function UserDropdown() {
@@ -14,7 +15,7 @@ export default function UserDropdown() {
     setIsOpen(!isOpen);
   }
 
-  function closeDropdown() {
+  function closeDropdown() {   
     setIsOpen(false);
   }
 

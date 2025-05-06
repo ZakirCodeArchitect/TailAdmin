@@ -5,13 +5,13 @@ import { signIn, signOut } from "@/lib/auth";
 
 export async function githubSignIn() {
   await signIn("github", {
-    callbackUrl: "/dashboard",
+    callbackUrl: "/",
   });
 }
 
 export async function googleSignIn() {
   await signIn("google", {
-    callbackUrl: "/dashboard",  
+    callbackUrl: "/",  
   });
 }
 
